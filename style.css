@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* setting root fontsize - use rem -> 1rem is now 10px*/
+  font-family: "Gill Sans", "Gill Sans MT";
+}
+
+body {
+  display: grid;
+  justify-content: center;
+}
+
+.title {
+  color: #16697a;
+  text-align: center;
+  font-size: 5rem; /*50px*/
+  margin: 1rem;
+}
+
+.entry-textbox {
+  background-color: #ffa62b;
+  margin: 1rem auto;
+  height: 25rem;
+  width: 50rem;
+  padding: 0.4em;
+  border: unset;
+  border-radius: 25px;
+  font-size: 2rem;
+}
+
+.entry-textbox:focus,
+input:focus {
+  /*removes black textbox outline when typing  */
+  outline: none;
+}
+
+#entryForm > .button {
+  padding: 1rem 1.8rem;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bolder;
+  border: unset;
+  margin-left: 85%;
+  margin-bottom:2%;
+}
+
+#entries {
+  background: #16697A;
+  color: #EDE7E3;
+  font-family: cursive;
+  padding: 2em;
+  max-width: 50rem;
+  border: unset;
+  border-radius: 5px;
+  margin-top: 1em;
+  font-size:2.5rem;
+}
+
+.entries-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 1rem; 
+}
+
+.display-entry-button {
+  padding: 0.5rem;
+  height: 3rem;
+  width: 2.5rem;
+  font-weight: 900;
+  color:#0b3861;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin: 0.2rem;
+  
+}
+
+.display-entry-button:hover {
+  cursor: pointer;
+}
