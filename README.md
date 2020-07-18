@@ -1,2 +1,3 @@
 # diaryApp
- simple diary app project as part of Scrimba course
+
+simple diary app project as part of the Scrimba FrontEnd Developer Career Path Course
